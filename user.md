@@ -66,7 +66,7 @@ For this lab, you will:
 4. Back in the canvas, to make a visualization, click the chart button in the blue bar at the bottom. Drag and drop your chart in any area of choice
 5. Before you take advantage of the text-to-viz feature, make sure that your dataset is set to flights_silver_mv
 6. Then type "Count of Flight Delays". Click accept.
-6b. Then create another viz by typing "flight delay by day of week". You can edit the bar chart using the right hand navigation pane by:
+6b. Then create another viz by typing "Flight Delay by Day of the Week". You can edit the bar chart using the right hand navigation pane by:
 - adding a description to the bar chart
 - changing the visualization type
 - editing the groupby colors and labels
