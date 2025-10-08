@@ -456,7 +456,7 @@ CREATE OR REPLACE MATERIALIZED VIEW flights_silver_mv
   Distance,
   IsArrDelayed,
   IsDepDelayed,
-  CONSTRAINT fk_flights_unique_carrier FOREIGN KEY (UniqueCarrier) REFERENCES dbsql_demo_pearl_ubaru.airlinedata_pearl_ubaru.lookupcodes_silver_mv(UniqueCode)
+  CONSTRAINT fk_flights_unique_carrier FOREIGN KEY (UniqueCarrier) REFERENCES <catalog>.<schema>.lookupcodes_silver_mv(UniqueCode)
 ) AS
 SELECT 
   FlightNum, 
