@@ -265,7 +265,7 @@ WITH filtered_flights AS (
   SELECT
     *
   FROM
-    `dbsql_demo_pearl_ubaru`.`airlinedata_pearl_ubaru`.`flights_silver_mv`
+    `dbsql_demo_tjzhao`.`airlinedata_tjzhao`.`flights_silver_mv`
   WHERE
     `Origin` = 'BOS'
     AND `IsDepDelayed` = 'YES'
